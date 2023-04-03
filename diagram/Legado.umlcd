@@ -1,0 +1,1568 @@
+{
+  "cells": [
+    {
+      "allowConfiguration": false,
+      "angle": 0,
+      "apiPath": "src/main/mobileapp/www/raml/Legado/api.raml",
+      "async": {
+        "batchSize": 500
+      },
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-attrs-text": {
+          "fill": "#666",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-attrs-value": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 12,
+          "font-weight": "bold"
+        }
+      },
+      "chkApi": false,
+      "dataSource": "jdbc/ApresentacaoSPTrans1",
+      "disableCache": false,
+      "generationType": "none",
+      "id": "paperCell",
+      "methods": [],
+      "namespace": "Legado",
+      "position": {
+        "x": 0,
+        "y": 80
+      },
+      "queries": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Paper",
+      "size": {
+        "height": 0,
+        "width": 0
+      },
+      "sqlDebugging": false,
+      "type": "basic.Rect",
+      "visionLikePackage": false,
+      "z": 1
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
+        "cargo:java.lang.String",
+        "codfuncao:java.lang.String",
+        "descfuncao:java.lang.String",
+        "nome:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 120,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ncargo\ncodfuncao\ndescfuncao\nnome\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 159,
+          "text": "Texto\nTexto\nTexto\nTexto\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,160)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Colaborador"
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        }
+      },
+      "dbFieldNames": [
+        "id",
+        "cargo",
+        "codfuncao",
+        "descfuncao",
+        "nome"
+      ],
+      "dbLengths": [
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "dbPrecisions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dbScales": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Id",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "pkType": "None",
+          "sequence": ""
+        },
+        {
+          "name": "cargo",
+          "type": "java.lang.String",
+          "dbName": "cargo",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Cargo",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "codfuncao",
+          "type": "java.lang.String",
+          "dbName": "codfuncao",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Codfuncao",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "descfuncao",
+          "type": "java.lang.String",
+          "dbName": "descfuncao",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Descfuncao",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "nome",
+          "type": "java.lang.String",
+          "dbName": "nome",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Nome",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        }
+      ],
+      "foreignKeysName": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "id": "c64c4f76-61ec-47b6-9a9b-23a8366c0969",
+      "insertable": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "isRest": "true",
+      "joins": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "keyTypes": [
+        "None",
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "labels": [
+        "Id",
+        "Cargo",
+        "Codfuncao",
+        "Descfuncao",
+        "Nome"
+      ],
+      "methods": [],
+      "modelType": "Table",
+      "name": "Colaborador",
+      "nullables": [
+        "id"
+      ],
+      "position": {
+        "x": 50,
+        "y": 6
+      },
+      "primaryKeys": [
+        "id"
+      ],
+      "queries": [],
+      "requireds": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "sequences": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": {
+        "height": 150,
+        "width": 198
+      },
+      "tableName": "COLABORADOR",
+      "tableScheme": "public",
+      "type": "uml.Class",
+      "uniqueKeys": [],
+      "updatable": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "usePhysicalNames": "false",
+      "z": 2
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
+        "coordenadas:java.lang.String",
+        "latitude:java.lang.String",
+        "local:java.lang.String",
+        "longitude:java.lang.String",
+        "regiao:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 140,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ncoordenadas\nlatitude\nlocal\nlongitude\nregiao\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 162,
+          "text": "Texto\nTexto\nTexto\nTexto\nTexto\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,180)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Local"
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        }
+      },
+      "dbFieldNames": [
+        "id",
+        "coordenadas",
+        "latitude",
+        "local",
+        "longitude",
+        "regiao"
+      ],
+      "dbLengths": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255
+      ],
+      "dbPrecisions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dbScales": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Id",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "pkType": "None",
+          "sequence": ""
+        },
+        {
+          "name": "coordenadas",
+          "type": "java.lang.String",
+          "dbName": "coordenadas",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Coordenadas",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "latitude",
+          "type": "java.lang.String",
+          "dbName": "latitude",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Latitude",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "local",
+          "type": "java.lang.String",
+          "dbName": "local",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Local",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "longitude",
+          "type": "java.lang.String",
+          "dbName": "longitude",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Longitude",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "regiao",
+          "type": "java.lang.String",
+          "dbName": "regiao",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Regiao",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        }
+      ],
+      "foreignKeysName": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "id": "8cea4b4e-e94a-4ce2-8acb-7a6cafe42837",
+      "insertable": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "isRest": "true",
+      "joins": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "keyTypes": [
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "labels": [
+        "Id",
+        "Coordenadas",
+        "Latitude",
+        "Local",
+        "Longitude",
+        "Regiao"
+      ],
+      "methods": [],
+      "modelType": "Table",
+      "name": "Local",
+      "nullables": [
+        "id"
+      ],
+      "position": {
+        "x": 331,
+        "y": 0
+      },
+      "primaryKeys": [
+        "id"
+      ],
+      "queries": [],
+      "requireds": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "sequences": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": {
+        "height": 160,
+        "width": 201
+      },
+      "tableName": "LOCAL",
+      "tableScheme": "public",
+      "type": "uml.Class",
+      "uniqueKeys": [],
+      "updatable": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "usePhysicalNames": "false",
+      "z": 2
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
+        "codigo:java.lang.Double",
+        "codigoorgaosuperior:java.lang.Double",
+        "nome:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 100,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ncodigo\ncodigoorgaosuperior\nnome\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 171,
+          "text": "Texto\nNumérico\nNumérico\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,140)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Orgao"
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        }
+      },
+      "dbFieldNames": [
+        "id",
+        "codigo",
+        "codigoorgaosuperior",
+        "nome"
+      ],
+      "dbLengths": [
+        255,
+        "",
+        "",
+        255
+      ],
+      "dbPrecisions": [
+        "",
+        17,
+        17,
+        ""
+      ],
+      "dbScales": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Id",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "pkType": "None",
+          "sequence": ""
+        },
+        {
+          "name": "codigo",
+          "type": "java.lang.Double",
+          "dbName": "codigo",
+          "dbLength": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": 17,
+          "dbScale": 17,
+          "label": "Codigo",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "codigoorgaosuperior",
+          "type": "java.lang.Double",
+          "dbName": "codigoorgaosuperior",
+          "dbLength": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": 17,
+          "dbScale": 17,
+          "label": "Codigoorgaosuperior",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "nome",
+          "type": "java.lang.String",
+          "dbName": "nome",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Nome",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        }
+      ],
+      "foreignKeysName": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "id": "f8ae4217-fc1f-4e42-8a69-b37069927b1e",
+      "insertable": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "isRest": "true",
+      "joins": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "keyTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "labels": [
+        "Id",
+        "Codigo",
+        "Codigoorgaosuperior",
+        "Nome"
+      ],
+      "methods": [],
+      "modelType": "Table",
+      "name": "Orgao",
+      "nullables": [
+        "id"
+      ],
+      "position": {
+        "x": 615,
+        "y": 10
+      },
+      "primaryKeys": [
+        "id"
+      ],
+      "queries": [],
+      "requireds": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "sequences": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": {
+        "height": 140,
+        "width": 234
+      },
+      "tableName": "ORGAO",
+      "tableScheme": "public",
+      "type": "uml.Class",
+      "uniqueKeys": [],
+      "updatable": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "usePhysicalNames": "false",
+      "z": 2
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
+        "colaborador:Colaborador",
+        "datafim:java.lang.String",
+        "dataini:java.lang.String",
+        "destino:java.lang.String",
+        "destinocidade:java.lang.String",
+        "destinouf:java.lang.String",
+        "fkSituacao:java.lang.String",
+        "identificador:java.lang.String",
+        "justificativaurgente:java.lang.String",
+        "local:Local",
+        "motivo:java.lang.String",
+        "numeroproposta:java.lang.String",
+        "orgao:Orgao",
+        "outroscustos:java.lang.String",
+        "urgente:java.lang.Boolean",
+        "valordiaria:java.lang.String",
+        "valorpassagem:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 380,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ncolaborador\ndatafim\ndataini\ndestino\ndestinocidade\ndestinouf\nfkSituacao\nidentificador\njustificativaurgente\nlocal\nmotivo\nnumeroproposta\norgao\noutroscustos\nurgente\nvalordiaria\nvalorpassagem\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 150,
+          "text": "Texto\nColaborador\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nTexto\nLocal\nTexto\nTexto\nOrgao\nTexto\nLógico\nTexto\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,420)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Viagem"
+        },
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        }
+      },
+      "dbFieldNames": [
+        "id",
+        "fk_colaboradores",
+        "datafim",
+        "dataini",
+        "destino",
+        "destinocidade",
+        "destinouf",
+        "fk_situacao",
+        "identificador",
+        "justificativaurgente",
+        "fk_local",
+        "motivo",
+        "numeroproposta",
+        "fk_orgao",
+        "outroscustos",
+        "urgente",
+        "valordiaria",
+        "valorpassagem"
+      ],
+      "dbLengths": [
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        255,
+        2147483647,
+        255,
+        2147483647,
+        255,
+        255,
+        255,
+        "",
+        2147483647,
+        255
+      ],
+      "dbPrecisions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dbScales": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Id",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "pkType": "None",
+          "sequence": ""
+        },
+        {
+          "name": "colaborador",
+          "type": "Colaborador",
+          "dbName": "fk_colaboradores",
+          "dbLength": 255,
+          "foreignKeyName": "VIAGEM_fk_colaboradores_fkey",
+          "joins": "fk_colaboradores:id",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Colaborador",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "datafim",
+          "type": "java.lang.String",
+          "dbName": "datafim",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Datafim",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "dataini",
+          "type": "java.lang.String",
+          "dbName": "dataini",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Dataini",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "destino",
+          "type": "java.lang.String",
+          "dbName": "destino",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Destino",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "destinocidade",
+          "type": "java.lang.String",
+          "dbName": "destinocidade",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Destinocidade",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "destinouf",
+          "type": "java.lang.String",
+          "dbName": "destinouf",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Destinouf",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "fkSituacao",
+          "type": "java.lang.String",
+          "dbName": "fk_situacao",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Fk Situacao",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "identificador",
+          "type": "java.lang.String",
+          "dbName": "identificador",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Identificador",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "justificativaurgente",
+          "type": "java.lang.String",
+          "dbName": "justificativaurgente",
+          "dbLength": 2147483647,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Justificativaurgente",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "local",
+          "type": "Local",
+          "dbName": "fk_local",
+          "dbLength": 255,
+          "foreignKeyName": "VIAGEM_fk_local_fkey",
+          "joins": "fk_local:id",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Local",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "motivo",
+          "type": "java.lang.String",
+          "dbName": "motivo",
+          "dbLength": 2147483647,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Motivo",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "numeroproposta",
+          "type": "java.lang.String",
+          "dbName": "numeroproposta",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Numeroproposta",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "orgao",
+          "type": "Orgao",
+          "dbName": "fk_orgao",
+          "dbLength": 255,
+          "foreignKeyName": "VIAGEM_fk_orgao_fkey",
+          "joins": "fk_orgao:id",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Orgao",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "outroscustos",
+          "type": "java.lang.String",
+          "dbName": "outroscustos",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Outroscustos",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "urgente",
+          "type": "java.lang.Boolean",
+          "dbName": "urgente",
+          "dbLength": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Urgente",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "valordiaria",
+          "type": "java.lang.String",
+          "dbName": "valordiaria",
+          "dbLength": 2147483647,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Valordiaria",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        },
+        {
+          "name": "valorpassagem",
+          "type": "java.lang.String",
+          "dbName": "valorpassagem",
+          "dbLength": 255,
+          "foreignKeyName": "",
+          "joins": "",
+          "isInsertable": true,
+          "isUpdatable": true,
+          "dbPrecision": "",
+          "dbScale": "",
+          "label": "Valorpassagem",
+          "mask": "",
+          "isUniqueKey": false,
+          "isNullable": true
+        }
+      ],
+      "foreignKeysName": [
+        "",
+        "VIAGEM_fk_colaboradores_fkey",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "VIAGEM_fk_local_fkey",
+        "",
+        "",
+        "VIAGEM_fk_orgao_fkey",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "id": "03135fb7-d850-407b-8cc3-b08f2f2583cb",
+      "insertable": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "isRest": "true",
+      "joins": [
+        "",
+        "fk_colaboradores:id",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "fk_local:id",
+        "",
+        "",
+        "fk_orgao:id",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "keyTypes": [
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "labels": [
+        "Id",
+        "Colaborador",
+        "Datafim",
+        "Dataini",
+        "Destino",
+        "Destinocidade",
+        "Destinouf",
+        "Fk Situacao",
+        "Identificador",
+        "Justificativaurgente",
+        "Local",
+        "Motivo",
+        "Numeroproposta",
+        "Orgao",
+        "Outroscustos",
+        "Urgente",
+        "Valordiaria",
+        "Valorpassagem"
+      ],
+      "methods": [],
+      "modelType": "Table",
+      "name": "Viagem",
+      "nullables": [
+        "id"
+      ],
+      "position": {
+        "x": 320,
+        "y": 308
+      },
+      "primaryKeys": [
+        "id"
+      ],
+      "queries": [],
+      "requireds": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "sequences": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "size": {
+        "height": 280,
+        "width": 228
+      },
+      "tableName": "VIAGEM",
+      "tableScheme": "public",
+      "type": "uml.Class",
+      "uniqueKeys": [],
+      "updatable": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "usePhysicalNames": "false",
+      "z": 2
+    },
+    {
+      "attrs": {
+        ".marker-source": {
+          "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
+          "fill": "#cecece"
+        },
+        ".marker-target": {
+          "d": "",
+          "fill": ""
+        }
+      },
+      "id": "32e15169-bc97-4eee-831a-f5cc656ea93b",
+      "labels": [
+        {
+          "position": 0.9,
+          "attrs": {
+            "rect": {
+              "fill": "transparent"
+            },
+            "text": {
+              "text": "*",
+              "font-family": "Arial",
+              "font-size": "12px",
+              "fill": "#cecece"
+            }
+          }
+        }
+      ],
+      "queries": [],
+      "relationFields": [
+        "colaborador:target"
+      ],
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "source": {
+        "id": "c64c4f76-61ec-47b6-9a9b-23a8366c0969"
+      },
+      "target": {
+        "id": "03135fb7-d850-407b-8cc3-b08f2f2583cb"
+      },
+      "type": "uml.Composition",
+      "vertices": [],
+      "z": "4"
+    },
+    {
+      "attrs": {
+        ".marker-source": {
+          "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
+          "fill": "#cecece"
+        },
+        ".marker-target": {
+          "d": "",
+          "fill": ""
+        }
+      },
+      "id": "3ce4e405-eac3-4c0a-9bd8-5ff7dc586417",
+      "labels": [
+        {
+          "position": 0.9,
+          "attrs": {
+            "rect": {
+              "fill": "transparent"
+            },
+            "text": {
+              "text": "*",
+              "font-family": "Arial",
+              "font-size": "12px",
+              "fill": "#cecece"
+            }
+          }
+        }
+      ],
+      "queries": [],
+      "relationFields": [
+        "orgao:target"
+      ],
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "source": {
+        "id": "f8ae4217-fc1f-4e42-8a69-b37069927b1e"
+      },
+      "target": {
+        "id": "03135fb7-d850-407b-8cc3-b08f2f2583cb"
+      },
+      "type": "uml.Composition",
+      "vertices": [],
+      "z": "4"
+    },
+    {
+      "attrs": {
+        ".marker-source": {
+          "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
+          "fill": "#cecece"
+        },
+        ".marker-target": {
+          "d": "",
+          "fill": ""
+        }
+      },
+      "id": "c6c89272-9d74-40f0-81c9-8cce1d9edbbb",
+      "labels": [
+        {
+          "position": 0.9,
+          "attrs": {
+            "rect": {
+              "fill": "transparent"
+            },
+            "text": {
+              "text": "*",
+              "font-family": "Arial",
+              "font-size": "12px",
+              "fill": "#cecece"
+            }
+          }
+        }
+      ],
+      "queries": [],
+      "relationFields": [
+        "local:target"
+      ],
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "source": {
+        "id": "8cea4b4e-e94a-4ce2-8acb-7a6cafe42837"
+      },
+      "target": {
+        "id": "03135fb7-d850-407b-8cc3-b08f2f2583cb"
+      },
+      "type": "uml.Composition",
+      "vertices": [],
+      "z": "4"
+    }
+  ],
+  "selectedGroup": "",
+  "groups": [
+    {
+      "name": "",
+      "id": "c2a17096-0930-4f98-ace2-f87c5d5df560",
+      "cells": [
+        "c64c4f76-61ec-47b6-9a9b-23a8366c0969",
+        "f8ae4217-fc1f-4e42-8a69-b37069927b1e",
+        "03135fb7-d850-407b-8cc3-b08f2f2583cb",
+        "8cea4b4e-e94a-4ce2-8acb-7a6cafe42837"
+      ],
+      "groupPositions": []
+    }
+  ]
+}
