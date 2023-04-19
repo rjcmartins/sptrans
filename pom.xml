@@ -202,4 +202,18 @@
         <project.cronospass.resource mimetype="folder/regular">src/test</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src/test/java</project.cronospass.resource>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>libs-release</id>
+            <name>artifactory.cronapp.io-releases</name>
+            <url>https://artifactory.cronapp.io/libs-release</url>
+          </repository>
+          <repository>
+            <id>libs-snapshots</id>
+            <name>artifactory.cronapp.io-snapshots</name>
+            <url>https://artifactory.cronapp.io/libs-snapshot</url>
+          </repository>
+    </repositories>
+
 </project>
